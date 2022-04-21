@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;    
+    background-color: rgb(24, 21, 21);
+    color: rgb(206, 206, 206);    
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.container {
+    border: 2px solid rgb(206, 206, 206);
+    box-shadow: 0 0 4px rgb(153, 153, 153);
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+/******************
+* HEADER
+*/
+header {
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+header .title .ledminh {
+    color: rgb(155, 223, 223);
+    font-style: italic;
+    font-weight: bold;
+}
+
+header .title .dot {
+    color: rgb(181, 241, 124);
+    font-size: 7rem;
+}
+
+header .title .dev {
+    color: rgb(155, 223, 223);
+}
+
+/******************
+* ASIDE
+*/
+aside {
+    background-color: rgb(19, 16, 16);
+    color: rgb(119, 119, 119);    
+
+
+    text-align: center;
+}
+
+aside .img-profile-wrapper {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+
+aside img {
+    height: 100%;
+    opacity: .7;
+}
+
+aside .title {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+aside ul {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+aside ul li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+aside ul li a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: rgb(175, 175, 175);
+
+    cursor: pointer;
+
+    transition: color .5s;
+}
+
+aside ul li a:hover {
+    color: rgb(252, 252, 252);
+
+}
+
+
+
+
+/******************
+* MAIN
+*/
+
+main .title {
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+
+main section .sub-title {
+    padding-bottom: .5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+
+main strong {
+    color:rgb(102, 202, 169);
+    font-size: 120%;
+    font-weight: bold;
+}
+
+main strong.level-2 {
+    color:rgb(70, 138, 115);
+    font-size: 110%;
+    font-weight: normal;
+}
+
+main strong.level-3 {
+    font-size: 100%;
+    color:rgb(102, 202, 169);
+    font-weight: normal;
+}
+
+main a {
+    color:rgb(216, 110, 110);
+    font-weight: 600;
+}
+
+
+
+main a:visited {
+    color:rgb(109, 57, 57);
+    font-weight: 600;
+}
+
+main a:hover {
+    color:rgb(218, 28, 28);
+}
+
+
+main section {
+    margin: 3rem 0;
+}
+
+
+
+/******************
+* ABOUT ME
+*/
+article.about-me .intro {
+    font-weight: 550;
+    font-style: italic;
+    margin: 3rem 0;
+}
+
